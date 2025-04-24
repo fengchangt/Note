@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include "lib.h"
+#include "myfunc.h"
 
 int main()
 {
-	Helloprintfunc();
-	Helloprintfunc_1();
+	myfunc();
 	system("pause");
 	return 0;
 }
